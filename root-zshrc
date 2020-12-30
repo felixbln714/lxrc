@@ -1,0 +1,7 @@
+# Felix's config for the Zoomer Shell (superuser version)
+
+# Variables
+var_main_home="/home/laizz"
+
+# Main
+source "$var_main_home/.zshrc"
