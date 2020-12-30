@@ -1,4 +1,0 @@
-# /home/*:
-PS1="%B%{$fg[green]%}%n%{$fg[green]%}@%{$fg[green]%}%M%{$fg[white]%}:%{$fg[blue]%}%~ %{$fg[white]%}%%%b "
-# /root:
-PS1="%B%{$fg[red]%}%m%{$fg[white]%}:%{$fg[magenta]%}%~ %{$fg[white]%}%#%b "
