@@ -111,7 +111,7 @@ XTerm*color11 : #808000
 !
 ! ! blue
 XTerm*color4  : #005fff
-XTerm*color12 : #5f00d7
+XTerm*color12 : #5f5fff
 !
 ! ! magenta
 XTerm*color5  : #ff6ac1
