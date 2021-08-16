@@ -1,7 +1,7 @@
 # Felix Hellmich's config for the Zoomer Shell (root version)
 
 # Variables
-var_main_home="/home/laizz"
+var_main_home="/home/anon"
 
 # Main
 source "$var_main_home/.zshrc"
