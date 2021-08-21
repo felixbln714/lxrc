@@ -1,4 +1,4 @@
-# Felix Hellmichs's config for the Zoomer Shell
+# flex's config for the Zoomer Shell
 
 # Variables
 var_home="/home/anon"
@@ -132,7 +132,8 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PROMPT="%2~ %# "
+    autoload -U colors && colors
+    PROMPT="[%n@%m %~]%# "
     # enable syntax-highlighting
     if [ -f /home/placeDirectoryorUserNameHere/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && [ "$color_prompt" = yes ]; then
 	# ksharrays breaks the plugin. This is fixed now but let's disable it in the
