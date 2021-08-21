@@ -1,5 +1,4 @@
 #!/bin/sh
-# Written by Felix Hellmich
 
 # Variables & Setup
 cd /home/
